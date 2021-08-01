@@ -7,7 +7,7 @@ sns.dark_palette("#69d", reverse=True, as_cmap=True)
 
 st.markdown("# Atomic Habits Compounding Effect")
 
-x = st.slider('% Betterment', max_value=10)
+x = st.slider('% Betterment', min_value=0.0, max_value=6.0, step=0.5)
 
 y = st.slider('Days Spent Grinding', min_value=1, max_value=365)
 
